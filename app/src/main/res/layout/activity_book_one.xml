@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/walpaper"
+    tools:context=".BookOne">
+
+
+
+
+    <EditText
+        android:id="@+id/product_names"
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="81dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/text_input"
+        android:hint="First Name"
+        android:padding="15dp"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/product_price"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_names"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/text_input"
+        android:hint="Email Address"
+        android:padding="15dp"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/product_name"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/text_input"
+        android:hint="Last Name"
+        android:padding="15dp"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/product_detils"
+        android:layout_alignParentStart="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="38dp"
+        android:background="@drawable/text_input"
+        android:hint="credit card"
+        android:padding="15dp"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/product_detils"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="247dp"
+        android:background="@drawable/text_input"
+        android:hint="expired"
+        android:padding="15dp"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+
+    <EditText
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="170dp"
+        android:background="@drawable/text_input"
+        android:hint=" Secret code"
+        android:padding="15dp"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/uploade"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="54dp"
+        android:background="@drawable/buttons"
+        android:onClick="books"
+        android:padding="15dp"
+        android:text="Upload" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="24dp"
+        android:text="Fill in your info"
+        android:textAllCaps="true"
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
+</RelativeLayout>
+

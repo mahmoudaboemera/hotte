@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="net.smallacademy.authenticatorapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/egypts"
+        android:label="EGYPT HOTEL"
+        android:roundIcon="@drawable/egypts"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AswanRooms"></activity>
+        <activity android:name=".AswanRoom" />
+        <activity android:name=".AswanInfo" />
+        <activity android:name=".Login" />
+        <activity android:name=".Register">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HotelActivity" />
+        <activity android:name=".ElsokhnaHotel" />
+        <activity android:name=".GounnaHotel" />
+        <activity android:name=".SharmHotel" />
+        <activity android:name=".AswanHotel" />
+        <activity android:name=".BookOne" />
+        <activity android:name=".MotelPay" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

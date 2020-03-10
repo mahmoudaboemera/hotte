@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+
+
+
+
+        <LinearLayout
+
+            android:id="@+id/up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="422dp"
+        android:layout_height="172dp">
+
+
+        <ImageView
+            android:id="@+id/pay0"
+            android:layout_width="168dp"
+            android:layout_height="147dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"
+            android:onClick="pay"
+            android:src="@drawable/marriott" />
+
+        <TextView
+            android:layout_width="126dp"
+            android:layout_height="157dp"
+            android:layout_alignRight="@+id/pay0"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="-204dp"
+            android:text="Marriott Mena House, Cairo  5-star hotel"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:layout_width="135dp"
+            android:layout_height="49dp"
+            android:layout_alignRight="@+id/pay0"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="134dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="-224dp"
+            android:text="1000 eg"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        >
+
+        <ImageView
+            android:id="@+id/pay1"
+            android:layout_width="168dp"
+            android:layout_height="147dp"
+            android:layout_marginTop="40dp"
+
+            android:onClick="pay"
+            android:src="@drawable/mweidien" />
+
+        <TextView
+            android:layout_width="137dp"
+            android:layout_height="188dp"
+            android:layout_alignRight="@+id/pay"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginRight="12dp"
+            android:text="Le Méridien Pyramids Hotel  Spa
+  5-star hotel"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:layout_width="135dp"
+            android:layout_height="49dp"
+            android:layout_alignRight="@+id/pay"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="136dp"
+            android:layout_marginEnd="11dp"
+            android:layout_marginRight="-213dp"
+            android:text="1.150 eg"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        >
+
+        <ImageView
+            android:id="@+id/no2"
+            android:layout_width="168dp"
+            android:layout_height="147dp"
+            android:layout_marginTop="40dp"
+            android:onClick="pay"
+
+            android:src="@drawable/nile" />
+
+        <TextView
+            android:layout_width="136dp"
+            android:layout_height="157dp"
+            android:layout_alignRight="@+id/no2"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="34dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="-191dp"
+            android:text="Marriott Mena House, Cairo  5-star hotel"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+
+        <TextView
+            android:layout_width="104dp"
+            android:layout_height="38dp"
+            android:layout_alignRight="@+id/no2"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="148dp"
+            android:layout_marginEnd="13dp"
+            android:layout_marginRight="-211dp"
+            android:text="900 eg"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        >
+
+        <ImageView
+            android:id="@+id/no3"
+            android:layout_width="168dp"
+            android:layout_height="147dp"
+            android:layout_alignParentStart="true"
+
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="40dp"
+            android:onClick="pay"
+            android:src="@drawable/alxandria" />
+
+        <TextView
+            android:layout_width="134dp"
+            android:layout_height="158dp"
+            android:layout_alignRight="@+id/no3"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="-178dp"
+            android:text="Four Seasons Hotel Alexandria at San Stefano, Egypt
+  5-star hotel"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:layout_width="113dp"
+            android:layout_height="53dp"
+            android:layout_alignRight="@+id/no3"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="162dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginRight="-203dp"
+            android:text="850 eg"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
